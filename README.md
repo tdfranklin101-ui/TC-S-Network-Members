@@ -1,22 +1,27 @@
-# TC-S-Network-Members
+# TC-S Network Members
 
-Member directory and distribution management
+Member management and distribution system for TC-S Network.
 
-## Part of TC-S Network Platform
+## Features
 
-This repository is part of the TC-S Network 14-repository microservices architecture. All services connect to a shared Supabase database and work together as a cohesive platform.
+- Member registration and management
+- Distribution tracking
+- Revenue allocation
+- Member profiles
 
 ## Setup
 
 ```bash
 npm install
+cp .env.example .env
 npm run dev
 ```
 
-## Documentation
+## API Endpoints
 
-See the main [TC-S Network documentation](https://github.com/tdfranklin101-ui/TC-S-Network-Shared) for complete setup instructions.
+- `GET /api/members` - List all members
+- `GET /api/distributions` - Get distribution history
 
 ## License
 
-MIT © TC-S Network Foundation
+MIT - TC-S Network Foundation
